@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PurchasePage : MonoBehaviour
+public class PurchaseManager : MonoBehaviour
 {
     [SerializeField] private GameObject content;
     [SerializeField] private TextMeshProUGUI textMeshProUGUI;

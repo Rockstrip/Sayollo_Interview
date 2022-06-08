@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Video;
 
 [RequireComponent(typeof(VideoPlayer))]
-public class Master : MonoBehaviour
+public class VideoManager : MonoBehaviour
 {
     private const string GetVastURL = "https://6u3td6zfza.execute-api.us-east-2.amazonaws.com/prod/ad/vast";
     private VideoPlayer _videoPlayer;
